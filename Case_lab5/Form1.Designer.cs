@@ -65,7 +65,6 @@
             this.добавитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -174,7 +173,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(934, 81);
+            this.button3.Location = new System.Drawing.Point(934, 125);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 50);
             this.button3.TabIndex = 3;
@@ -372,7 +371,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(934, 19);
+            this.button6.Location = new System.Drawing.Point(934, 29);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(109, 52);
             this.button6.TabIndex = 26;
@@ -380,22 +379,11 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(934, 155);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 45);
-            this.button4.TabIndex = 27;
-            this.button4.Text = "Сохранить";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1081, 620);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
@@ -472,7 +460,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Сolunm7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.Button button4;
     }
 }
 

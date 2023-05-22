@@ -87,24 +87,6 @@ namespace Case_lab5
 
        
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Excel.Application exApp = new Excel.Application();
-
-            exApp.Workbooks.Add();
-            Excel.Worksheet wsh = (Excel.Worksheet)exApp.ActiveSheet;
-            int i, j;
-            string rep;
-            for (i = 0; i <= dataGridView1.RowCount - 1; i++)
-            {
-                for (j = 0; j <= dataGridView1.ColumnCount - 1; j++)
-                {
-                    wsh.Cells[1, j + 1] = dataGridView1.Columns[j].HeaderText.ToString();
-                    rep = dataGridView1[j, i].Value.ToString().Replace("|", "\\");
-                    wsh.Cells[i + 2, j + 1] = rep;
-                }
-            }
-            exApp.Visible = true;
-        }
+      
     }
 }
